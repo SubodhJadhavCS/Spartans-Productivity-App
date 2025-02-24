@@ -30,7 +30,7 @@ Clone the repository:
 sh
 Copy
 Edit
-git clone https://github.com/your-username/Spartan-Productivity.git
+git clone [https://github.com/your-username/Spartan-Productivity.git](https://github.com/SubodhJadhavCS/Spartans-Productivity-App.git)
 Open the project in Android Studio.
 Build and run on an Android device.
 
