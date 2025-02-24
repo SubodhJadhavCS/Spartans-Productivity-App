@@ -20,9 +20,8 @@ Third-Party Libraries (Android Timer, Circular Progress UI)
 MVVM Architecture
 
 
-
 📷 Screenshots
-(Attach screenshots of your app here)
+![splash](https://github.com/user-attachments/assets/8ba5ae5f-22df-4d7c-b410-7ecca64e7b1b)
 
 
 
