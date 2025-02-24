@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:inputType="text"
+        android:maxLines="2"
+        android:textColor="@color/splashAccent"
+        android:id="@+id/editetext"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/task"
+        android:backgroundTint="@color/splashprimaray"
+        android:textColorHint="@color/splashprimaray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SAVE"
+        android:text="@string/save"
+        android:textStyle="bold"
+        android:textColor="@color/splashprimaray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editetext" />
+
+
+
+    <me.tankery.lib.circularseekbar.CircularSeekBar
+        android:id="@+id/circular_range_slider"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center_horizontal"
+
+        app:cs_circle_color="@color/whitegrey"
+        app:cs_circle_progress_color="@color/splashprimaray"
+        app:cs_circle_stroke_width="14dp"
+        app:cs_circle_style="round"
+        app:cs_negative_enabled="false"
+        app:cs_pointer_alpha_ontouch="6"
+        app:cs_pointer_angle="0"
+        app:cs_pointer_color="@color/splashred"
+        app:cs_pointer_halo_color_ontouch="@color/splashreddark"
+        app:cs_pointer_stroke_width="30dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <me.tankery.lib.circularseekbar.CircularSeekBar
+        android:id="@+id/seconds_slider"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+
+        app:cs_circle_color="@color/whitegrey"
+        app:cs_circle_progress_color="@color/splashprimaray"
+        app:cs_circle_stroke_width="4dp"
+        app:cs_circle_style="round"
+        app:cs_negative_enabled="false"
+        app:cs_pointer_alpha_ontouch="6"
+        app:cs_pointer_angle="0"
+        app:cs_pointer_color="@color/colorAccent"
+        app:cs_pointer_halo_color_ontouch="@color/splashreddark"
+        app:cs_pointer_stroke_width="7dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TimeSet"
+        android:textColor="@color/splashAccent"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circular_range_slider"
+        app:layout_constraintEnd_toEndOf="@+id/circular_range_slider"
+        app:layout_constraintStart_toStartOf="@+id/circular_range_slider"
+        app:layout_constraintTop_toTopOf="@+id/circular_range_slider" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="softcore"
+        android:text="@string/Softcore"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circular_range_slider" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="HardCore"
+        android:text="@string/Hardcore"
+        android:textColor="@color/splashprimaray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/circular_range_slider" />
+
+    <TextView
+        android:onClick="Cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

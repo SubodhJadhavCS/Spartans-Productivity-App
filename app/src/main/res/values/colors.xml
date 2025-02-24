@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EE0043</color>
+    <color name="colorPrimaryDark">#B30000</color>
+    <color name="colorAccent">#FF0303</color>
+    <color name="splashred">#F71E0E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yelloow">#FFF200</color>
+    <color name="splashreddark">#B91B0F</color>
+
+    <color name="splashprimaray">#FF1200</color>
+    <color name="splashAccent">#EC473A</color>
+    <color name="whitegrey">#C9C9C9</color>
+    <color name="transperant">#81FFEB3B</color>
+</resources>

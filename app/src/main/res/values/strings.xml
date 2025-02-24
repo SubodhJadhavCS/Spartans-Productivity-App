@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sparten\'s_Productivity</string>
+    <string name="splash_text">   YOUR TIME ON EARTH IS LIMITED SPEND IT WISELY</string>
+    <string name="Do_not">Do not show this agian</string>
+    <string name="next">NEXT</string>
+    <string name="Instruction">Instruction\'s for Sparten</string>
+    <string name="TimeSet">Restriction time 1 min </string>
+    <string name="Softcore">SoftCore Sparten</string>
+    <string name="Hardcore">Hardore Saprten</string>
+    <string name="task">Write Your One important Goal you have to Achieve today</string>
+    <string name="save">Save</string>
+    <string name="howtouse">How to use \n\n  1) First Write down you most important task you wanted to complete \n
+
+        until then you phone will be partially locked to use  for you phones addiction \n\n
+
+        2)then  set  timer for you  task how much time you want to restrict yourself from  accessing the phone\n\n
+
+        3)then select  the HARDCORE OR SOFTCORE  spartan you wanted to be\n\n
+
+        HARDCORE spartan :- \n
+        if you want to restrict the access of you addiction from phone you have to chose  it
+         will restrict any kind of use of your phone apps social media or anything that distract you\n\n
+
+        SOFTCORE SPARTAN :-  if you wanted to use  your phone but  also wanted to restrict access
+        of your phone  so you should chose this  as you can occasionally use your phone\n\n
+
+
+        Click Cancel :- \n so you can set new timer and to remove the  restriction also
+
+
+    </string>
+    <string name="Cancel">Cancel</string>
+    <string name="goal">Goal</string>
+    <string name="timer"> only Timer left Focus on you task</string>
+    <string name="Quets">" What Task You Doing Now is Important For You Stick To It"</string>
+</resources>
